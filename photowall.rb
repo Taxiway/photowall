@@ -4,12 +4,12 @@ require_relative 'image_process'
 class PhotoWall
   @@source_width = 5184
   @@source_height = 3456
-  @@shrink_scale = 54
-  @@rows = 16
-  @@columns = 16
+  @@shrink_scale = 27
+  @@rows = 18
+  @@columns = 18
   @@photo_dir = "photos/"
-  @@min_pct = 0.4
-  @@max_pct = 0.8
+  @@min_pct = 0.8
+  @@max_pct = 0.9
 
   def photos
     plist = Array.new
