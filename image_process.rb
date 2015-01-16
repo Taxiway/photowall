@@ -22,7 +22,7 @@ class ImageProcess
 
   def self.png2jpg png
     png.save('_out.png')
-    Image.png('_out.png')
+    VIPS::Image.png('_out.png')
   end
 
 end
